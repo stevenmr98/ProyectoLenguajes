@@ -12,8 +12,8 @@ namespace ProyectoLenguajes.Model
         public string Name { get; set; }
         public string Lastname { get; set; }
         public string Password { get; set; }
-        public string Mail { get; set; }
         public Image Photo { get; set; }
         public string Interest { get; set; }
+        public string Addbress { get; set; }
     }
 }
