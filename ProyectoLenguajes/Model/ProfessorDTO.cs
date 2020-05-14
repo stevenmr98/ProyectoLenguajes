@@ -14,11 +14,10 @@ namespace ProyectoLenguajes.Controllers
         public string Password { get; set; }
         public string Mail { get; set; }
         public string Grade { get; set; }
-        public string Social_Media { get; set; }
         public Image Photo { get; set; }
         public string Interest { get; set; }
         public string IsAdmin{ get; set; }
-
+        public string Address { get; set; }
 
     }
 }
