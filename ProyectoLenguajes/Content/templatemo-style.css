@@ -161,10 +161,13 @@ https://templatemo.com/tm-516-known
     padding: 100px 0;
   }
 
+.modal-content {
+    background: #ABD4DB;
+}
+
   #top{
     position: relative;
     padding: 100px 0;
-    /*background-image: url(https://images.vexels.com/media/users/3/100742/preview2/97fb785ccbfac8dca78d94f8b911ba45-resumen-de-fondo-azul-grafico-vectorial-4.png);*/
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190629/pngtree-vector-blue-background-with-abstract-polygon-triangles--flyer-te-image_263670.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -521,18 +524,18 @@ https://templatemo.com/tm-516-known
     padding: 0;
   }
 
-  .courses-thumb {
+.courses-thumb {
     background: #f9f9f9;
     position: relative;
-  }
+}
 
-  .courses-top {
+.courses-top {
     position: relative;
-  }
+}
 
-  .courses-image {
+.courses-image {
     background: linear-gradient(to right, #202020, #101010);
-  }
+}
 
   .courses-date {
     background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.6));
@@ -602,9 +605,9 @@ https://templatemo.com/tm-516-known
 
 
 
-  /*---------------------------------------
+/*---------------------------------------
      NEWS              
-  -----------------------------------------*/
+  -----------------------------------------
 
   .news-thumb {
     clear: both;
@@ -628,30 +631,39 @@ https://templatemo.com/tm-516-known
     color: #909090;
     font-weight: bold;
   }
-
+*/
 
 
   /*---------------------------------------
-      TESTIMONIAL             
+      NEWS             
   -----------------------------------------*/
 
-  #testimonial .item {
-    background: #ffffff;
+#news .item {
+    background: #86D8E8;
     margin: 20px 0;
     padding: 4em 3em;
     text-align: left;
-  }
+}
 
-  #courses .col-md-4,
-  #testimonial .col-md-4 {
+#courses .col-md-4,
+#news .col-md-4 {
     display: block;
     width: 100%;
-  }
+    background-color: #0586A0;
+}
 
-  #testimonial .item > p {
+  #news .item > p {
     font-size: 16px;
     line-height: 26px;
   }
+
+#news .submit-btn {
+    background-image: url(https://image.flaticon.com/icons/svg/753/753317.svg);
+    width: 125px;
+    height: 125px;
+    border-radius:65px;
+    border-color:transparent;
+}
 
   .tst-rating {
     margin-bottom: 15px;
@@ -670,7 +682,6 @@ https://templatemo.com/tm-516-known
   }
 
   .tst-image img {
-    border-radius: 50px;
     width: 60px !important;
     height: 60px;
     margin-right: 15px;
